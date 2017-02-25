@@ -17,4 +17,11 @@ Expands Links without using your own IP.
 - A brain
 
 
+[How to Run]:
+
+1. When prompted enter the suspicious link.
+2. It will send a request, get the title of the page if it can.
+3. Shows you where the link leads, to. Bypassing Grabify.
+
+![Alt text](http://i.imgur.com/1cosnWt.png "Demo")
 
