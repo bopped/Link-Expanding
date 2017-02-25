@@ -13,8 +13,8 @@ Expands Links without using your own IP.
 
 [Requirements]:
 
-1. Modules : requests & BeautifulSoup4. Google are you're best friend to install them.
-2. A brain
+- Modules : requests & BeautifulSoup4. Google are you're best friend to install them.
+- A brain
 
 
 
