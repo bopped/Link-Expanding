@@ -1,6 +1,6 @@
 # Cause fuck grabify
 # Any bugs let me know
-# Python 2
+# Python 3 Ver.
 import requests
 from bs4 import BeautifulSoup
 req = requests.session()
@@ -10,9 +10,9 @@ headers = {
 }
 req.headers.update(headers)
 POSTURL = 'http://www.linkexpander.com/get_url.php'
-REDIRECTURL = raw_input("ENTER URL\t")
+REDIRECTURL = input("ENTER URL\t")
 if 'http' not in REDIRECTURL:
-    print 'Please have HTTP / HTTPS in front of the URL'
+    print ('Please have HTTP / HTTPS in front of the URL')
     exit()
 URLpayload = {
     'url':REDIRECTURL
@@ -26,7 +26,7 @@ PAGE_SOUP = BeautifulSoup(response.text, "lxml").find('td')
 for TITLE in PAGE_SOUP:
     PAGETITLE = TITLE
 try:
-    print 'Title of the Redirected Page: [ {} ] \nRedirected from: [ {} ] to [ {} ] '.format(PAGETITLE,REDIRECTURL,REDIRECTEDURL)
+    print ('Title of the Redirected Page: [ {} ] \nRedirected from: [ {} ] to [ {} ] '.format(PAGETITLE,REDIRECTURL,REDIRECTEDURL))
 except NameError:
-    print 'Title Not Received from LinkExpander\n'
-    print 'Redirected from: [ {} ] to [ {} ] \n'.format(REDIRECTURL, REDIRECTEDURL)
+    print ('Title Not Received from LinkExpander\n')
+    print ('Redirected from: [ {} ] to [ {} ] \n'.format(REDIRECTURL, REDIRECTEDURL))
