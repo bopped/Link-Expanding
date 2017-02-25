@@ -1,5 +1,5 @@
 # Cause fuck grabify
-# Any buys let me know
+# Any bugs*ty zruss* let me know
 # Python 2
 import requests
 from bs4 import BeautifulSoup
