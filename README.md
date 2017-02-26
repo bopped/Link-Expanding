@@ -14,7 +14,7 @@ Expands Links without using your own IP.
 
 [Requirements]:
 
-- Modules : requests & BeautifulSoup4. Google are you're best friend to install them.
+- Modules : requests & BeautifulSoup4. Google is you're best friend to install them.
 - A brain
 
 
