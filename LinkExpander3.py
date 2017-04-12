@@ -1,5 +1,3 @@
-# Cause fuck grabify
-# Any bugs let me know
 # Python 3 Ver.
 import requests
 from bs4 import BeautifulSoup
