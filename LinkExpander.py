@@ -1,4 +1,3 @@
-# Cause fuck grabify
 # Any bugs*ty zruss* let me know
 # Python 2
 import requests
